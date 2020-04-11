@@ -5,10 +5,10 @@ Khofifah Nurlaela       05111840000025
 ```
 
 ## soal4
-# soal4(a)
+### soal4(a)
 Buatlah program C dengan nama "4a.c", yang berisi program untuk melakukan perkalian matriks. Ukuran matriks pertama adalah 4x2, dan matriks kedua 2x5. Isi dari matriks didefinisikan di dalam kodingan. Matriks nantinya akan berisi angka 1-20 (tidak perlu dibuat filter angka). 2. Tampilkan matriks hasil perkalian tadi ke layar. 
 
-# Jawaban4(a)
+#### Jawaban4(a)
 Create threads :
 ```
     while(k<4){
@@ -64,10 +64,10 @@ for(int i=0; i<4; i++){
     }
 ```
 
-# soal4(b)
+### soal4(b)
 Buatlah program C kedua dengan nama "4b.c". Program ini akan mengambil variabel hasil perkalian matriks dari program "4a.c" (program sebelumnya), dan tampilkan hasil matriks tersebut ke layar. (Catatan!: gunakan shared memory) 2. Setelah ditampilkan, berikutnya untuk setiap angka dari matriks tersebut, carilah nilai penjumlahan n sampai 1, dan tampilkan hasilnya ke layar dengan format seperti matriks. 
 Contoh: misal matriks [[5, 20, 10, 30, 50], [10, 56, 15, 18, 19], [29, 30, 11, 12, 26], ...], maka perhitungannya, untuk angka 5 adalah 5+4+3+2+1, untuk angka 20 = 20+19+18+17+...+1, dst.
-# Jawaban4(b)
+### Jawaban4(b)
 Untuk mendapatkan matriks hasil dari jawaban soal 4(a) :
 ```
     key_t key = 1234;
@@ -106,7 +106,7 @@ Untuk menghitung penjumlahan n sampai 1 setiap elemen matriks sekaligus menampil
 ```
 # soal4(c)
 Buatlah program C ketiga dengan nama "4c.c". Program ini tidak memiliki hubungan terhadap program yang lalu. Pada program ini, Norland diminta mengetahui jumlah file dan folder di direktori saat ini dengan command "ls | wc -l". Karena sudah belajar IPC, Norland mengerjakannya dengan semangat. (Catatan! : Harus menggunakan IPC Pipes) 
-# Jawaban 4(c)
+### Jawaban 4(c)
 Mendefinisikan pipe dengan fork :
 ```
 int fd1[2]; 
