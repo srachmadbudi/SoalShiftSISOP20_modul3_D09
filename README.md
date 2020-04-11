@@ -4,6 +4,24 @@ Rachmad Budi Santoso    05111840000122
 Khofifah Nurlaela       05111840000025
 ```
 
+## soal1
+bingung susah, semoga bisa di lain waktu.
+## soal2
+maaf belum bisa memberikan yg terbaik.
+## soal3
+kodingan bisa dilihat di folder: soal3
+Kategorisasi File
+Kategorisasi menerima 3 argumen
+        \* untuk kategorisasi di folder dimana program tersebut berada.
+        -f untuk kategorisasi file yang ditentukan.
+        -d untuk kategorisasi di folder yang ditentukan.
+
+Pembuatan direktori untuk kategorisasi berdasarkan ekstensi tiap file. Pengecekan ekstensi dan nama file menggunakan strrchr()
+
+Dalam kategorisasi tiap file diproses dengan thread berbeda-beda.
+
+Pemindahan file dilakukan dengan cara memmbaca file menggunakan fgetc() kemudian memasukkan ke file lain dengan nama yang sama dan folder yang berbeda menggunakan fputc().
+
 ## soal4
 ### soal4(a)
 Buatlah program C dengan nama "4a.c", yang berisi program untuk melakukan perkalian matriks. Ukuran matriks pertama adalah 4x2, dan matriks kedua 2x5. Isi dari matriks didefinisikan di dalam kodingan. Matriks nantinya akan berisi angka 1-20 (tidak perlu dibuat filter angka). 2. Tampilkan matriks hasil perkalian tadi ke layar. 
